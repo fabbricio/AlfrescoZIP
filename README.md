@@ -1,9 +1,9 @@
 # Script para instalação do Alfresco versão 7.4 
-Esse script irá te auxiliar na instalação do Alfresco em modo standalone utilizando os arquivos zip
+ Esse script irá te auxiliar na instalação do Alfresco em modo standalone utilizando os arquivos zip
 
 ## Motivação
-Agilizar a instalação e configuração do Alfresco 7.4.
-A documentação oficial é bem rica em informações, porém eu sempre quis deixar algo mais específico e rápido para agilizar a instalação.
+ Agilizar a instalação e configuração do Alfresco 7.4.
+ A documentação oficial é bem rica em informações, porém eu sempre quis deixar algo mais específico e rápido para agilizar a instalação.
 
 ## Aviso importante
 Esse script tem o intuito de ajudar a quem necessita ter agilidade no processo de instalação da ferramenta na versão **community**.
