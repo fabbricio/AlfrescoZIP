@@ -36,6 +36,15 @@ Ubuntu Server 22.04
 ### Pré-requisitos
 
 ```apt-get install openjdk-17-jdk openjdk-17-jre zip unzip postgresql-14```
+- Configurar a variável de ambiente JAVA_HOME
+**Inclua no /etc/environment a seguinte linha:** 
+```
+# vim /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/"
+```
+- Vamos recarregar as varáveis de ambiente
+```# source /etc/environment```
+
 
 ### Preparação do Banco de dados
 Precisamos preparar o banco de dados para que o Alfresco possa criar os objetos em sua primeira carga.
@@ -51,15 +60,6 @@ postgres=# grant all on database alfresco to alfresco;
 
 ```
 
-# Nota
-- A mensagem **Seus detalhes de autenticação não foram reconhecidos ou o Alfresco Content Services não está disponível no momento.**
-É uma mensagem bem genérica, mas se todos os passos forem seguidos à risca aqui e mesmo assim a mensagem aparecer é possível que seja erro de senha.
-O usuário padrão do Alfresco é **admin** e senha **admin**
-- Alé do erro de senha essa mensagem pode indicar os seguintes motivos:
-    - Configuração do banco de dados errada;
-    - Banco de dados não foi criado;
-    - O Alfresco pode não estar conseguindo se conectar com o banco de dados;
-    - Verifique se o serviço do Solr subiu;
 
 ### Criar diretório de instalação
 ```mkdir /opt/alfresco7.4```
@@ -90,3 +90,12 @@ cd /opt/alfresco7.4
 search-services/solr/bin/solr start
 search-services/solr/bin/solr stop
 ```
+# Nota
+- A mensagem **Seus detalhes de autenticação não foram reconhecidos ou o Alfresco Content Services não está disponível no momento.**
+É uma mensagem bem genérica, mas se todos os passos forem seguidos à risca aqui e mesmo assim a mensagem aparecer é possível que seja erro de senha.
+O usuário padrão do Alfresco é **admin** e senha **admin**
+- Alé do erro de senha essa mensagem pode indicar os seguintes motivos:
+    - Configuração do banco de dados errada;
+    - Banco de dados não foi criado;
+    - O Alfresco pode não estar conseguindo se conectar com o banco de dados;
+    - Verifique se o serviço do Solr subiu;
