@@ -54,7 +54,7 @@ postgres=# grant all on database alfresco to alfresco;
 # Nota
 - A mensagem **Seus detalhes de autenticação não foram reconhecidos ou o Alfresco Content Services não está disponível no momento.**
 É uma mensagem bem genérica, mas se todos os passos forem seguidos à risca aqui e mesmo assim a mensagem aparecer é possível que seja erro de senha.
-O usuário e senha padrão do Alfresco é **admin** e senha **admin**
+O usuário padrão do Alfresco é **admin** e senha **admin**
 - Alé do erro de senha essa mensagem pode indicar os seguintes motivos:
     - Configuração do banco de dados errada;
     - Banco de dados não foi criado;
