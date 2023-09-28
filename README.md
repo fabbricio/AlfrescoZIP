@@ -43,6 +43,7 @@ Ubuntu Server 22.04
 JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/"
 ```
 - Vamos recarregar as varáveis de ambiente
+
 ```# source /etc/environment```
 
 
