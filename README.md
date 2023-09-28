@@ -8,7 +8,7 @@ A documentação oficial é bem rica em informações, porém eu sempre quis dei
 ## Aviso importante
 Esse script tem o intuito de ajudar a quem necessita ter agilidade no processo de instalação da ferramenta na versão **community**.<br>
 Não nos responsabilizamos por uso indevido desse script.<br>
-Para suporte e garantias do produto utilize a versão **Enterprise edition**
+Para suporte e garantias do produto utilize a versão [Enterprise edition](https://www.alfresco.com/try-alfresco)
 
 ### Endereços utilizados
 
@@ -19,6 +19,7 @@ Alfresco [Content services](https://artifacts.alfresco.com/nexus/content/reposit
 Alfresco [Search services](https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfresco/alfresco-search-services/2.0.8/alfresco-search-services-2.0.8.zip)<br>
 Alfresco [Share distribution](https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfresco/alfresco-content-services-share-distribution/7.4.1/alfresco-content-services-share-distribution-7.4.1.zip)<br>
 Apache [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.73/bin/apache-tomcat-9.0.73.zip)
+PostgreSQL [JDBC](https://jdbc.postgresql.org/download/postgresql-42.5.4.jar)
 
 ### Versões utilizadas
 - Alfresco versão 7.4
