@@ -2,8 +2,19 @@
 Esse script irá te auxiliar na instalação do Alfresco em modo standalone utilizando os arquivos zip
 
 ## Motivação
-Agilizar a instalação e configuração do Alfresco 7.4
+Agilizar a instalação e configuração do Alfresco 7.4.
 A documentação oficial é bem rica em informações, porém eu sempre quis deixar algo mais específico e rápido para agilizar a instalação.
+
+## Aviso importante
+Esse script tem o intuito de ajudar a quem necessita ter agilidade no processo de instalação da ferramenta na versão **community**.
+Não nos responsabilizamos por uso indevido desse script.
+Para suporte e garantias do produto utilize a versão **Enterprise edition**
+
+### Endereços utilizados
+
+Site oficial [Instalação com ZIP](https://docs.alfresco.com/content-services/latest/install/zip/)
+Projeto base para criar esse script. [mcgitty/install-alfresco-6x.sh](https://github.com/mcgitty/install-alfresco-6x.sh)
+Experimente o Alfresco [www.alfresco.com/try-alfresco](https://www.alfresco.com/try-alfresco)
 
 ### Versões utilizadas
 - Alfresco versão 7.4
@@ -14,8 +25,7 @@ A documentação oficial é bem rica em informações, porém eu sempre quis dei
 - PostgreSQL 14
 - Postgres JDBC "postgresql-42.5.4.jar"
 
-
-## Sistema operacional utilizado
+### Sistema operacional utilizado
 Ubuntu Server 22.04 
 
 ### Pré-requisitos
