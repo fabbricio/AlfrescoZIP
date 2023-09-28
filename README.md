@@ -35,7 +35,11 @@ Ubuntu Server 22.04
 
 ### Pré-requisitos
 
-```apt-get install openjdk-17-jdk openjdk-17-jre zip unzip postgresql-14```
+```
+# apt-get update
+# apt-get upgrade
+# apt-get install openjdk-17-jdk openjdk-17-jre zip unzip postgresql-14
+```
 - Configurar a variável de ambiente JAVA_HOME
 **Inclua no /etc/environment a seguinte linha:** 
 ```
