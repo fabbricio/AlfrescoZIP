@@ -6,15 +6,19 @@ Agilizar a instalação e configuração do Alfresco 7.4. <br>
 A documentação oficial é bem rica em informações, porém eu sempre quis deixar algo mais específico e rápido para agilizar a instalação.
 
 ## Aviso importante
-Esse script tem o intuito de ajudar a quem necessita ter agilidade no processo de instalação da ferramenta na versão **community**.
-Não nos responsabilizamos por uso indevido desse script.
+Esse script tem o intuito de ajudar a quem necessita ter agilidade no processo de instalação da ferramenta na versão **community**.<br>
+Não nos responsabilizamos por uso indevido desse script.<br>
 Para suporte e garantias do produto utilize a versão **Enterprise edition**
 
 ### Endereços utilizados
 
-Site oficial [Instalação com ZIP](https://docs.alfresco.com/content-services/latest/install/zip/)
-Projeto base para criar esse script. [mcgitty/install-alfresco-6x.sh](https://github.com/mcgitty/install-alfresco-6x.sh)
-Experimente o Alfresco [www.alfresco.com/try-alfresco](https://www.alfresco.com/try-alfresco)
+Site oficial [Instalação com ZIP](https://docs.alfresco.com/content-services/latest/install/zip/)<br>
+Projeto base para criar esse script. [mcgitty/install-alfresco-6x.sh](https://github.com/mcgitty/install-alfresco-6x.sh)<br>
+Experimente o Alfresco [www.alfresco.com/try-alfresco](https://www.alfresco.com/try-alfresco)<br>
+Alfresco [Content services](https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfresco/alfresco-content-services-community-distribution/7.4.1/alfresco-content-services-community-distribution-7.4.1.zip)<br>
+Alfresco [Search services](https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfresco/alfresco-search-services/2.0.8/alfresco-search-services-2.0.8.zip)<br>
+Alfresco [Share distribution](https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfresco/alfresco-content-services-share-distribution/7.4.1/alfresco-content-services-share-distribution-7.4.1.zip)<br>
+Apache [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.73/bin/apache-tomcat-9.0.73.zip)
 
 ### Versões utilizadas
 - Alfresco versão 7.4
@@ -23,7 +27,7 @@ Experimente o Alfresco [www.alfresco.com/try-alfresco](https://www.alfresco.com/
 - Alfresco Content services share 7.4.1
 - Apache Tomcat 9.0.73
 - PostgreSQL 14
-- Postgres JDBC "postgresql-42.5.4.jar"
+- Postgres JDBC **postgresql-42.5.4.jar**
 
 ### Sistema operacional utilizado
 Ubuntu Server 22.04 
