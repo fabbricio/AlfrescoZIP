@@ -155,7 +155,7 @@ dir.keystore=\${dir.root}/keystore
 db.driver=org.postgresql.Driver
 db.url=jdbc:postgresql://localhost:5432/alfresco
 db.username=alfresco
-db.password=bodevelho2016
+db.password=alfresco
 
 jodconverter.officeHome=/Applications/LibreOffice.app/Contents
 jodconverter.portNumbers=8101
