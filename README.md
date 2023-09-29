@@ -78,6 +78,9 @@ wget https://artifacts.alfresco.com/nexus/content/repositories/public/org/alfres
 wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.73/bin/apache-tomcat-9.0.73.zip
 ```
 
+### Baixar o script de instalação
+```wget https://raw.githubusercontent.com/fabbricio/AlfrescoZIP/main/alfresco_install.sh```
+
 ### Executar o script "alfresco_install.sh" passando o diretório de instalação
 ```. /opt/AlfrescoZip/alfresco_install.sh /opt/alfresco7.4```
 
